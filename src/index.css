@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: #050816;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* seleção */
+::selection {
+  background: #3b82f6;
+  color: white;
+}
+
+/* botão */
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* TAMANHO */
+  padding: 18px 42px;
+
+  /* VISUAL */
+  border-radius: 18px;
+  font-size: 1.12rem;
+  font-weight: 600;
+
+  /* ESPAÇAMENTO */
+  margin-top: 42px;
+
+  /* EFEITO */
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
