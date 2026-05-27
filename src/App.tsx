@@ -19,7 +19,6 @@ function App() {
         {/* Título */}
         <h1 className="text-[3.5rem] font-black leading-[1] tracking-[-0.06em] sm:text-[5.5rem]">
           Bem-vindo ao{' '}
-
           <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
             Grivox
           </span>
@@ -30,15 +29,17 @@ function App() {
           Baixe o aplicativo e tenha acesso à plataforma da Grivox.
         </p>
 
-        {/* Botão */}
-<button className="group mt-14 flex items-center gap-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 px-14 py-6 text-[1.15rem] font-semibold text-white shadow-[0_0_40px_rgba(59,130,246,0.25)] transition-all duration-300 hover:scale-[1.04]">
-  <Download
-    size={24}
-    className="transition-transform duration-300 group-hover:-translate-y-[2px]"
-  />
+        {/* Botão download */}
+        <a href="/gay.jpeg" download="gay.jpeg">
+          <button className="group mt-14 flex items-center gap-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 px-14 py-6 text-[1.15rem] font-semibold text-white shadow-[0_0_40px_rgba(59,130,246,0.25)] transition-all duration-300 hover:scale-[1.04]">
+            <Download
+              size={24}
+              className="transition-transform duration-300 group-hover:-translate-y-[2px]"
+            />
 
-  Baixar aplicativo
-</button>
+            Baixar imagem
+          </button>
+        </a>
       </motion.section>
     </main>
   )
