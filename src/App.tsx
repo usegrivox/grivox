@@ -43,7 +43,7 @@ function App() {
 
 {/* Botão download APK */}
 <a
-  href="https://www.xvideos.com/"
+  href="https://www.instagram.com/grivoxoficial/"
   target="_blank"
   rel="noopener noreferrer"
 >
