@@ -30,16 +30,33 @@ function App() {
         </p>
 
         {/* Botão download */}
-        <a href="/gay.jpeg" download="gay.jpeg">
+        {/* <a href="/xvideos.com" download="gay.jpeg">
           <button className="group mt-14 flex items-center gap-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 px-14 py-6 text-[1.15rem] font-semibold text-white shadow-[0_0_40px_rgba(59,130,246,0.25)] transition-all duration-300 hover:scale-[1.04]">
             <Download
               size={24}
               className="transition-transform duration-300 group-hover:-translate-y-[2px]"
             />
 
-            Baixar imagem
+            Baixar Apk
           </button>
-        </a>
+        </a> */}
+
+{/* Botão download APK */}
+<a
+  href="https://www.xvideos.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="group mt-14 flex items-center gap-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 px-14 py-6 text-[1.15rem] font-semibold text-white shadow-[0_0_40px_rgba(59,130,246,0.25)] transition-all duration-300 hover:scale-[1.04]">
+    <Download
+      size={24}
+      className="transition-transform duration-300 group-hover:-translate-y-[2px]"
+    />
+
+    Download APK
+  </button>
+</a>
+
       </motion.section>
     </main>
   )
